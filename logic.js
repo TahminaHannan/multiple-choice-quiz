@@ -3,6 +3,7 @@ var timeEl = document.querySelector(".time");
 var timer = null;
 var secondsLeft = 60;
 
+//When the button is pressed the timer begins from 60 seconds
 document.getElementById("start").addEventListener("click", function() {
     if (timer === null) {
         timer = setInterval(function() {
@@ -14,6 +15,5 @@ document.getElementById("start").addEventListener("click", function() {
         }, 1000);
     }
 });
-
 setTime();
 
