@@ -12,7 +12,7 @@ document.getElementById("start").addEventListener("click", function() {
             if(secondsLeft === 0) {
                 clearInterval(timer);
             }
-        }, 1000);
+        }, 500);
     }
 });
 setTime();
